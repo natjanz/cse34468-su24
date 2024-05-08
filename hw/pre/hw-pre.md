@@ -106,15 +106,15 @@ where *NETID* is your Notre Dame NetID (e.g. _striegel_). It is up to you whethe
 
 To create a new repository, tap the **New** icon near the upper left.
 
-![TaskNew.png]
+![Task6-New.png]
 
 Once you have selected to create a new repository, name your repository appropriately using your ND NetID.  Make sure your repository is **private** and then select Yes to having GitHub automatically include a _README.md_ file.  You do not need to pick a repository template, a license, or add a _.gitignore_.  
 
-![TaskRepo.png]
+![Task6-Repo.png]
 
 Tap the **Create Repository** button which should take you to a web page that looks something like the following:
 
-![TaskNewRepo.png]
+![Task6-NewRepo.png]
 
 Check the URL (web address) for your repository.  It should look something like the following:
 
@@ -124,11 +124,11 @@ where the GitHub username is right after github and the repository named that yo
 
 Next, tap on **Settings** which can be found in the toolbar for your repository.
 
-![TaskToolbar.png]
+![Task6-Toolbar.png]
 
 From there, tap on **Collaborators** which can be found in the menu on the left.
 
-![TaskMenuCollaborators.png]
+![Task6-MenuCollaborators.png]
 
 You may need to authenticate again to ensure that you are indeed you as the action of adding or removing collaborators is a sensitive operation.  
 
@@ -183,14 +183,25 @@ At this point once you have saved these files, you have only saved these files o
 There are three logical steps involved:
 
 * *add* the file to git to have it tracked
+   * This step is included with the commit in GitHub Desktop
 * *commit* changes to the final and / or the initial version including a message that describes what is involved in the respective changes
    * As an aside, we will always be committing changes to the *main* branch
+   * For every assignment, you will hopefully have multiple commits
 * *push* causes the changes to be pushed from your local repository to the cloud repository
 
+Generally, once you create the file, the sequence will drop down to just the last two steps.  You *commit* changes to the local repository.  Logically, you can think of that as saving checkpoints or historical versions (e.g. track changes).  Once committed, you then *push* the changes to the cloud.  
 
+Once the changes have been pushed to the cloud, you will be able to see your files present via github.com.  
 
+**Task:** Add / commit the changes to your repository and push your change to GitHub.  Browse to your repository on GitHub.com and confirm that everything is present (README.md, pre/pre.md).
 
+Finally, for the purposes of your assignments, there will be two parts to any submission.  You will commit and push your changes to GitHub and then you will also submit the hash of your commit via Canvas.  
 
+To get the commit hash for your commit while in your repository, click on History in GitHub Desktop and select the version that you are interested in viewing. In the middle upper right, there is a hexadecimal number that is the SHA Hash.  
 
+![Task7-Hash.png]
+
+**Task:** Copy the hash and submit it in the text field for the Task 7 pre-assignment on Canvas. 
 
 ## Task 8: Program the Sense HAT emulator
+
