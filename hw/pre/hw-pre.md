@@ -100,21 +100,21 @@ There is no specific submission step for this task.
 
 For assignment submissions, you will need to create a **private** repository.  You should name your repository in the following format:
 
-> student-cse34468-su24-NETID
+`student-cse34468-su24-NETID`
 
-where *NETID* is your Notre Dame NetID (e.g. _striegel_). It is up to you whether or not to have GitHub add the appropriate _README.md_ file.  
+where `NETID` is your Notre Dame NetID (e.g. `striegel`). It is up to you whether or not to have GitHub add the appropriate `README.md` file.  
 
 To create a new repository, tap the **New** icon near the upper left.
 
-![Task6 - New Task](Task6-New.png)
+![New Repo](Task6-New.png)
 
-Once you have selected to create a new repository, name your repository appropriately using your ND NetID.  Make sure your repository is **private** and then select Yes to having GitHub automatically include a _README.md_ file.  You do not need to pick a repository template, a license, or add a _.gitignore_.  
+Once you have selected to create a new repository, name your repository appropriately using your ND NetID.  Make sure your repository is **private** and then select Yes to having GitHub automatically include a `README.md` file.  You do not need to pick a repository template, a license, or add a `.gitignore`.  
 
-![Task6-Repo.png]
+![Create Repo](Task6-Repo.png)
 
 Tap the **Create Repository** button which should take you to a web page that looks something like the following:
 
-![Task6-NewRepo.png]
+![Create the Private Repo](Task6-NewRepo.png)
 
 Check the URL (web address) for your repository.  It should look something like the following:
 
@@ -124,17 +124,17 @@ where the GitHub username is right after github and the repository named that yo
 
 Next, tap on **Settings** which can be found in the toolbar for your repository.
 
-![Task6-Toolbar.png]
+![Settings Toolbar](Task6-Toolbar.png)
 
 From there, tap on **Collaborators** which can be found in the menu on the left.
 
-![Task6-MenuCollaborators.png]
+![Add Collaborators](Task6-MenuCollaborators.png)
 
 You may need to authenticate again to ensure that you are indeed you as the action of adding or removing collaborators is a sensitive operation.  
 
-Select **Add People** and add the username _adstriegel_
+Select **Add People** and add the username `adstriegel`
 
-**Task:** Create your private repository, add Prof. Striegel (adstriegel), and complete the following [Google Form](https://forms.gle/Sd1ZUyuJnTvLFFXz6).  
+**Task:** Create your private repository, add Prof. Striegel (`adstriegel`), and complete the following [Google Form](https://forms.gle/Sd1ZUyuJnTvLFFXz6).  
 
 Note that for group assignments (labs), you will select one student's repository to use for the submission.  In that case, you will extend collaborator access to each of your group members.  You are expected to abide by the Honor Code for any further individual assignments and not to browse through their repository when completing your own individual assignment.  
 
@@ -146,11 +146,11 @@ Your next step is to clone your private repository to your laptop.  As your repo
 
 **Task:** Clone your private repository to your laptop using the GitHub Desktop tool.  This is the URL that you just specified in the last task in the Google Form and should look something like: 
 
-https://github.com/adstriegel/student-cse34468-su24-striegel
+`https://github.com/adstriegel/student-cse34468-su24-striegel`
 
-except with your NetID instead of *striegel*.  
+except with your NetID instead of `striegel`.  
 
-Similar to how you found the file hw-pre.md in the last step, figure out where exactly your repository is stored on your laptop. Your laptop should have two different repositories, one that is the course repository named *cse34468-su24* and one that is your private repository. Make sure that both repositories exist.
+Similar to how you found the file hw-pre.md in the last step, figure out where exactly your repository is stored on your laptop. Your laptop should have two different repositories, one that is the course repository named `cse34468-su24` and one that is your private repository. Make sure that both repositories exist.
 
 Once you have confirmed that the repository is present, we need to find an editor that will let us edit code and various documentation.  [Visual Studio Code](https://code.visualstudio.com) is a fantastic and highly capable IDE (Integrated Development Environment) that nicely highlights syntax and generally makes coding easier.  Other tools such as [Notepad++]() for Windows are also great as well.
 
@@ -162,38 +162,44 @@ When opening your repository for the first time, you may need to trust the repos
 
 **Task:** Create, edit files and directories
 
-If there is a README.md file present, click to open up the file inside of the editor.  If not, create a new file inside of the repository named README.md.  
+If there is a `README.md` file present, click to open up the file inside of the editor.  If not, create a new file inside of the repository named `README.md`.  
 
 The .md extension denotes that the file contains [Markdown](https://www.markdownguide.org) text which is a formatting style to create marked text that looks a bit better than a plain text file allowing for bullets, bold, italics, links, and various other features without going all the way to a Microsoft Word or Google Doc.
 
-Modify your *README.md* file to include the following:
+Modify your `README.md` file to include the following:
 
 * Your name
 * Your e-mail
 
 Create a sub-directory named *pre* inside of your repository.  Inside of that *pre* sub-directory, make a file named *pre.md* and add the following text to the file.  For the purpose of the course, we will be putting each specific assignment in its own sub-directory.  It will be very importance for the purpose of keeping your instructor happy to put files in the right locations to allow for simplified testing of the various submissions.  
 
-> # Pre-Assignment - Summer 2024 - Berlin
->
-> This is a file and directory to demonstrate proper placement and eventually pushing 
-> of the content to the GitHub private repository.  
+``` 
+# Pre-Assignment - Summer 2024 - Berlin
+
+This is a file and directory to demonstrate proper placement and eventually pushing 
+of the content to the GitHub private repository.  
+```
+
+### Committing Changes Locally and Pushing to GitHub
 
 At this point once you have saved these files, you have only saved these files on your laptop.  Some of the files (README.md) may be tracked by Git while other files are effectively just present like normal files on your computer.  We want to have Git track all of the files and appropriately push changes to the remote repository in the cloud (at github.com).
 
 There are three logical steps involved:
 
-* *add* the file to git to have it tracked
+* `add` the file to git to have it tracked
    * This step is included with the commit in GitHub Desktop
-* *commit* changes to the final and / or the initial version including a message that describes what is involved in the respective changes
+* `commit` changes to the final and / or the initial version including a message that describes what is involved in the respective changes
    * As an aside, we will always be committing changes to the *main* branch
    * For every assignment, you will hopefully have multiple commits
-* *push* causes the changes to be pushed from your local repository to the cloud repository
+* `push` causes the changes to be pushed from your local repository to the cloud repository
 
 Generally, once you create the file, the sequence will drop down to just the last two steps.  You *commit* changes to the local repository.  Logically, you can think of that as saving checkpoints or historical versions (e.g. track changes).  Once committed, you then *push* the changes to the cloud.  
 
 Once the changes have been pushed to the cloud, you will be able to see your files present via github.com.  
 
 **Task:** Add / commit the changes to your repository and push your change to GitHub.  Browse to your repository on GitHub.com and confirm that everything is present (README.md, pre/pre.md).
+
+### Code Submissions - GitHub + SHA Hash on Canvas
 
 Finally, for the purposes of your assignments, there will be two parts to any submission.  You will commit and push your changes to GitHub and then you will also submit the hash of your commit via Canvas.  
 
