@@ -106,7 +106,7 @@ where *NETID* is your Notre Dame NetID (e.g. _striegel_). It is up to you whethe
 
 To create a new repository, tap the **New** icon near the upper left.
 
-![Task6-New.png]
+![Task6 - New Task](Task6-New.png)
 
 Once you have selected to create a new repository, name your repository appropriately using your ND NetID.  Make sure your repository is **private** and then select Yes to having GitHub automatically include a _README.md_ file.  You do not need to pick a repository template, a license, or add a _.gitignore_.  
 
@@ -199,9 +199,21 @@ Finally, for the purposes of your assignments, there will be two parts to any su
 
 To get the commit hash for your commit while in your repository, click on History in GitHub Desktop and select the version that you are interested in viewing. In the middle upper right, there is a hexadecimal number that is the SHA Hash.  
 
-![Task7-Hash.png]
+![Getting the Commit Hash](Task7-Hash.png)
 
 **Task:** Copy the hash and submit it in the text field for the Task 7 pre-assignment on Canvas. 
 
 ## Task 8: Program the Sense HAT emulator
+
+1. Browse to the [Sense HAT emulator](https://trinket.io/sense-hat)
+2. Run the code that is present on the site
+3. Browse to the [modified code in the class repository](https://github.com/adstriegel/cse34468-su24/blob/main/hw/pre/mod-sense.py)
+4. Copy / paste the code into the code block on the Sense HAT site
+5. Stop the code and run the code
+6. Modify the code to show a letter N and a letter D
+7. Copy your working code into a file named hat-mine.py in the pre/ directory of your private repository
+8. Commit and push the change to your repository
+9. Submit the hash of your commit via Canvas
+
+
 
