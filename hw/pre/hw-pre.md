@@ -92,7 +92,7 @@ For this repository, you will only have read access meaning that you can clone /
 
 When you clone the class repository into a local repository, remember where the files are placed on your laptop.  Generally, it is recommended to make a sub-directory under which you place all repositories (e.g. Documents/repos).  
 
-**Task:** Clone the class repository using the GitHub Desktop tool and locate this same file in the cloned repo under hw/pre/hw-pre.md. 
+**Task:** Clone the class repository using the GitHub Desktop tool and locate this same file in the cloned repo under `hw/pre/hw-pre.md`. 
 
 There is no specific submission step for this task.
 
