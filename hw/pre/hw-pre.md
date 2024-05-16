@@ -217,7 +217,7 @@ To get the commit hash for your commit while in your repository, click on Histor
 4. Copy / paste the code into the code block on the Sense HAT site
 5. Stop the code and run the code
 6. Modify the code to show a letter N and a letter D
-7. Copy your working code into a file named hat-mine.py in the pre/ directory of your private repository
+7. Copy your working code into a file named `hat-mine.py` in the `pre/` directory of your private repository
 8. Commit and push the change to your repository
 9. Submit the hash of your commit via Canvas
 
