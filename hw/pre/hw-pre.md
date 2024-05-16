@@ -197,7 +197,7 @@ Generally, once you create the file, the sequence will drop down to just the las
 
 Once the changes have been pushed to the cloud, you will be able to see your files present via github.com.  
 
-**Task:** Add / commit the changes to your repository and push your change to GitHub.  Browse to your repository on GitHub.com and confirm that everything is present (README.md, pre/pre.md).
+**Task:** Add / commit the changes to your repository and push your change to GitHub.  Browse to your repository on GitHub.com and confirm that everything is present (`README.md`, `pre/pre.md`).
 
 ### Code Submissions - GitHub + SHA Hash on Canvas
 
