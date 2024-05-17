@@ -1,6 +1,6 @@
 # Schedule - CSE 34468 - Summer 2024
 
-Each lecture period runs for three hours which are split up into blocks of roughly fifty minutes to one hour with a ten minute break between blocks. Generally, the cadence will be fifty minutes of lecture (Block 1), a ten minute break, one hour of lab (Block 2), a ten minute break, and fifty minutes of lecture.  On Mondays, there will be a weekly assignment that can be completed in the afternoon.  On Wednesdays, there will be time set aside for a quiz and there will not be an assignment posted. Labs may be completed / demonstrated during the lab time and generally will be completed in pairs.  
+Each lecture period runs for three hours which are split up into blocks of roughly fifty minutes to one hour with a ten minute break between blocks. Generally, the cadence will be fifty minutes of lecture (Block 1), a ten minute break, one hour of lab (Block 2), a ten minute break, and fifty minutes of lecture.  On Mondays, there will be a weekly assignment that can be completed in the afternoon.  On Wednesdays, there will be time set aside for a quiz and there will not be an assignment posted. Labs may be completed / demonstrated during the lab time and generally will be completed in groups of up to three students.  
 
 The various assignments and their respective due dates are listed at the bottom of the schedule and are also listed in the homework directory.
 
@@ -56,7 +56,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 
 | **Lab** | **Description** | **Date** | **Group** |  
 | 1 | Lab 1 - SSH, Python, Turning the Crank | 05-27 | Individual | 
-| 2 | Lab 2 - Web Fetch, Staticis with Python | 05-29 | Individual | 
+| 2 | Lab 2 - Web Fetch, Statistics with Python | 05-29 | Individual | 
 | 3 | Lab 3 - Stoplight Controller | 06-03, 06-05 | Group |
 | 4 | Lab 4 - Motor Control | 06-10 | Group |
 | 5 | Lab 5 - Temperature + Web | 06-12 | Group |
@@ -76,7 +76,7 @@ The listed schedule is tenative and may be modulated depending on how the semest
 Assessments are conducted in-class and consist of quizzes, a lab practical, and a final exam.
 
 * *Quizzes:* Quizzes are conducted via Canvas and consist of multiple choice and short answer questions.  Quizzes will generally be 15 minutes or less. Quizzes will be completed individually.
-* *Lab Practical:* The lab practical will consist of a problem that will need to be completed within an hour. It is considered to be a complement to the written final exam. This can be completed individually or as a pair. 
+* *Lab Practical:* The lab practical will consist of a problem that will need to be completed within an hour. It is considered to be a complement to the written final exam. This will be completed individually. 
 * *Final Exam:* The final exam will be held in class on Wednesday, July 3rd at the start of class. Fifty minutes will be given for the exam. Exams will be open laptop / open notes but closed Internet. The final exam will be completed individually.
 
 | **Assessment** | **Description** | **When** | 
